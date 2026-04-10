@@ -1,0 +1,103 @@
+1) function contarA(palavra){
+  let qtd = 0;
+  for(let i = 0; i < palavra.length; i++){
+    if(palavra[i] == "a" || palavra[i] == "A"){
+      qtd++;
+    }
+  }
+  return qtd;
+}
+
+
+
+2) function somaArray(numeros){
+  let soma = 0;
+  for(let i = 0; i < numeros.length; i++){
+    soma += numeros[i];
+  }
+  return soma;
+}
+
+
+
+3)function contarAte(n){
+  for(let i = 1; i <= n; i++){
+    console.log(i);
+  }
+}
+
+
+
+4)function contarPares(numeros){
+  let qtd = 0;
+  for(let i = 0; i < numeros.length; i++){
+    if(numeros[i] % 2 == 0){
+      qtd++;
+    }
+  }
+  return qtd;
+}
+
+
+
+
+5)function maior(a,b,c){
+  let m = a;
+  if(b > m){ m = b; }
+  if(c > m){ m = c; }
+  return m;
+}
+[20/03, 11:20] +55 41 8476-3291: function media(notas){
+  let soma = 0;
+  for(let i = 0; i < notas.length; i++){
+    soma += notas[i];
+  }
+  return soma / notas.length;
+}
+
+
+
+6)function contarA(palavra){
+  let qtd = 0;
+  for(let i = 0; i < palavra.length; i++){
+    if(palavra[i] == "a" || palavra[i] == "A"){
+      qtd++;
+    }
+  }
+  return qtd;
+}
+
+
+7)function menorNumero(numeros){
+  let menor = numeros[0];
+  for(let i = 1; i < numeros.length; i++){
+    if(numeros[i] < menor){
+      menor = numeros[i];
+    }
+  }
+  return menor;
+}
+
+
+8)function parOuImpar(n){
+  return (n % 2 == 0) ? "Par" : "Ímpar";
+}
+[20/03, 11:20] +55 41 8476-3291: function mostrarArray(numeros){
+  for(let i = 0; i < numeros.length; i++){
+    console.log(numeros[i]);
+  }
+}
+
+
+9)function mostrarArray(numeros){
+  for(let i = 0; i < numeros.length; i++){
+    console.log(numeros[i]);
+  }
+}
+
+
+10)function tabuada(n){
+  for(let i = 1; i <= 10; i++){
+    console.log(n + " x " + i + " = " + (n*i));
+  }
+}
